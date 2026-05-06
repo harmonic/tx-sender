@@ -1,0 +1,17 @@
+rpc_url = "https://api.testnet.solana.com"
+keypairs = "./keypairs"
+identity = "IDENTITY PUBKEY"
+target_tps = 5000
+
+# Three ways to deliver txs:
+
+# 1. Direct TPU.
+# tpu_addr = "1.2.3.4:9007"
+
+# 2. Harmonic bundles. Contact the Harmonic team to whitelist your
+#    searcher keypair. Keypair defaults to keypairs[0] if unset.
+# block_engine_url = "https://testnet.be.harmonic.gg"
+# harmonic_bundle_keypair = "/path/to/searcher.json"
+
+# 3. Jito bundles via Jito's public block engine.
+# jito_url = "https://ny.testnet.block-engine.jito.wtf/api/v1/bundles"
